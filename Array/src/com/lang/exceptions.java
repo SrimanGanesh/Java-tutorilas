@@ -17,19 +17,15 @@ public class exceptions {
         
         }catch(ArithmeticException e) {
             System.out.println(e);
-        }catch(NullPointerException e) {
-            System.out.println(e);
-        }catch(Exception e) {
-            System.out.println(e);
+        }catch(NullPointerException e1) {
+            System.out.println(e1);
+        }catch(Exception e2) {
+            System.out.println(e2);
         }
-
- 
-
-        
         System.out.println("Hello");
+    };
     }
 
  
 
-}
-}
+
